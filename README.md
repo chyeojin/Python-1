@@ -43,28 +43,36 @@ Python 기본 문법 정리
   ### 파이썬에서 변수 선언할 때 특별한 키워드 없이 바로 할당할 수 없음  
   ### 데이터 타입은 자동으로 인식됨  
 ---
+```python
 x = 10              # int
 y = 20.5            # float
 name = "Alice"      #str
 is_student = True   #bool
+```
 ---
 
 # 리스트, 튜플, 딕셔너리  
-  ###리스트(List) : 변경 가능(mutable)한 데이터 컬렉션  
-  ###튜플(Tuple) : 변경 불가능한(immutable)한 데이터 컬렉션  
-  ###딕셔너리(Dictionary) : 키 - 값 쌍으로 이루어진 데이터 컬렉션  
+  ### 리스트(List) : 변경 가능(mutable)한 데이터 컬렉션  
+  ### 튜플(Tuple) : 변경 불가능한(immutable)한 데이터 컬렉션  
+  ### 딕셔너리(Dictionary) : 키 - 값 쌍으로 이루어진 데이터 컬렉션  
 ---   
 # 리스트  
+```python
 fruits = ["apple", "banana", "cherry"]  
-print(fruits[0])   #apple  
+print(fruits[0])   #apple
+```
 
 # 튜플  
+```python
 coordinates = (10, 20)  
-print(coordinates[1])  #20  
+print(coordinates[1])  #20
+``` 
 
 # 딕셔너리  
+```python
 person = {"name" : "John", "age" : 30}  
-print(person["name"])   #John  
+print(person["name"])   #John
+```
 ---
 
 # 제어 구조  
@@ -73,29 +81,37 @@ print(person["name"])   #John
 ---
 
 # if - else 조건문  
+```python
 age = 20  
 if age >= 18:  
    print("You are an adult")  
 else:  
-   print("You are a minor")  
+   print("You are a minor")
+```
    
 # for 반복문  
+```python
 for fruit in fruits:  
-   print(fruis)  
+   print(fruis)
+``` 
    
 # while 반복문  
+```python
 i = 0  
 while i < len(fruits):  
    print(fruits[i])  
-   i += 1  
+   i += 1
+```
 ---
 
 # 함수  
   ### 파이썬에서 함수는 def 키워드를 사용하여 정의함  
   ### 함수는 코드의 재 사용성을 높여줌  
 ---  
+```python
 def greet(name):  
       print("Hello, " + name + "!")  
 
-greet("Alice")  
+greet("Alice")
+```
 ---  
