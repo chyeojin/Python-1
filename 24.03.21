@@ -1,0 +1,7 @@
+```python
+square = lambda x: x ** 2
+
+# 예제로 3의 제곱을 계산해봅시다.
+result = square(3)
+print("3의 제곱:", result)
+```
